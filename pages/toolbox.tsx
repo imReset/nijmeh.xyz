@@ -5,15 +5,15 @@ import dock from "../public/dock.png";
 export default function Toolbox() {
     return (
         <div>
-            <title>Andrew's Toolbox</title>
+            <title>Andrews Toolbox</title>
             <h1>Toolbox</h1>
             <p>
-                I'm a developer.. so I have a bunch of programs & tools I use on a daily basis. so I've listed it all here :)
+                Im a developer.. so I have a bunch of programs & tools I use on a daily basis. so Ive listed it all here :)
             </p>
             <h2>
                 Gear
                 <p>
-                    At the moment, I use a <strong>14" Macbook (M1 Pro). </strong>
+                    At the moment, I use a <strong>14 inch Macbook (M1 Pro). </strong>
                     I also have 2 external monitors hooked up to my Macbook.
                 </p>
             </h2>
@@ -23,7 +23,7 @@ export default function Toolbox() {
                 <p>
                     My dock is very minimal.
 
-                    I dislike when it's cluttered, so I keep a very small amount of apps.
+                    I dislike when its cluttered, so I keep a very small amount of apps.
 
                     Here are the apps I use on a daily basis.
 
