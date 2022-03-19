@@ -4,7 +4,7 @@ import dock from "../public/dock.png";
 
 export default function Toolbox() {
     return (
-        <center>
+        <div>
             <title>Andrew's Toolbox</title>
             <h1>Toolbox</h1>
             <p>
@@ -47,6 +47,6 @@ export default function Toolbox() {
                     <li><mark><a href="https://rectangleapp.com">Rectangle</a></mark></li>                                   
                 </p>
             </h2>
-        </center>
+            </div>
     )
 }
