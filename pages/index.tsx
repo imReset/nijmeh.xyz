@@ -1,5 +1,6 @@
 import React from "react";
 import dayjs from "dayjs";;
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,16 +9,13 @@ export default function Home() {
         <h1>Andrew Nijmeh</h1>
 
         <p>
-          <a href="mailto:andrewn@gmx.com"><strong> ✉️ </strong></a> ·
+          <Link href="mailto:andrewn@gmx.com" passHref><strong> ✉️ </strong></Link> ·
 
-          <a href="https://github.com/sponsors/anddddrew"><strong> 💸 </strong></a> ·
+          <Link href="https://github.com/sponsors/anddddrew" passHref><strong> 💸 </strong></Link> ·
 
-          <a href="https://github.com/anddddrew"><strong> 💻 </strong></a> ·
+          <Link href="https://github.com/anddddrew" passHref><strong> 💻 </strong></Link> ·
 
-          <a href="/toolbox"><strong> 🧰 </strong></a> ·
-
-          <a href="../public/resume.pdf"><strong>📄</strong></a> 
-
+          <Link href="/toolbox" passHref><strong> 🧰 </strong></Link> 
         </p>
         <p>
           Welcome to my website! I'm a 13 year old software developer from Toronto. I've been doing software development for 3.5 years (2.5 yrs professionally),
