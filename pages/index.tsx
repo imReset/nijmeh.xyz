@@ -4,6 +4,7 @@ import dayjs from "dayjs";;
 export default function Home() {
   return (
       <div className="container">
+        <title>Andrew Nijmeh</title>
         <h1>Andrew Nijmeh</h1>
 
         <p>
@@ -43,7 +44,7 @@ export default function Home() {
         </p>
         <p className="footer">
           <span>
-          ©️ Andrew Nijmeh • 2022
+          ©️ Andrew Nijmeh • 2022 💖
           </span>
         </p>
       </div>
