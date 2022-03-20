@@ -5,6 +5,7 @@
   font-display: block;
   src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
 }
+
 @font-face {
   font-family: 'Inter var';
   font-style: italic;
@@ -13,6 +14,7 @@
   src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
   font-named-instance: 'Italic';
 }
+
 a ::selection {
   background: #1455bd2c;
   color: #000;
@@ -34,12 +36,14 @@ body {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: subpixel-antialiased;
-  font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
-    'cv03' 1, 'cv04' 1;
-  font-variation-settings: 'wght' 400;
+  font-feature-settings: 'case'1, 'cpsp'1, 'dlig'1, 'cv01'1, 'cv02',
+    'cv03'1, 'cv04'1;
+  font-variation-settings: 'wght'400;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
-  display:flex; flex-direction:column; justify-content:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0.75rem;
   background: #e7d5c1;
   color: #a94219;
@@ -47,7 +51,7 @@ body {
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
-  screen and (min-resolution: 1.5dppx) {
+screen and (min-resolution: 1.5dppx) {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -77,50 +81,74 @@ a {
 }
 
 a {
-  text-underline-position: from-font;
   text-decoration-skip-ink: all;
-  text-decoration-color: #9a5337a6;
-  text-underline-offset: -1px;
-  text-decoration-line: underline;
+  text-decoration: all #9a5337a6 -1px underline solid;
   text-decoration-thickness: from-font;
   transition: all 0.2s ease;
-  text-decoration-style: solid;
 }
 
+h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inter var', sans-serif;
-  font-variation-settings: 'wght' 600;
+  font-family: 'Inter var', -apple-system, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif;
+  font-variation-settings: 'wght'600;
   margin-top: 2rem;
 }
+
 h2 {
-  font-family: 'Inter var', sans-serif;
-  font-variation-settings: 'wght' 650;
+  font-variation-settings: 'wght'650;
   letter-spacing: -0.024rem;
   margin-top: 2rem;
 }
+
 h1 {
   font-family: 'Inter var', sans-serif;
-  font-variation-settings: 'wght' 700;
+  font-variation-settings: 'wght'700;
   font-size: 2rem;
   margin-bottom: 0.4em;
 }
+
 p {
   font-size: 1.2rem;
   line-height: 1.5;
+  opacity: 0.8;
+  font-weight: 400;
 }
+
+p.links {
+  display: inline-flex;
+}
+
+p.links strong {
+  cursor: pointer;
+  display: block;
+  margin: 0 5px;
+  user-select: none;
+  transition: 100ms;
+  font-size: 23px;
+}
+p.links:not(strong) {
+  cursor: default;
+}
+p.links strong:hover {
+  transform: translateY(-1px);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.178);
+}
+
 .footer {
   margin-top: 3.5rem;
   font-size: 0.9rem;
   padding-left: auto;
 }
+
 b,
 strong {
-  font-variation-settings: 'wght' 680;
+  font-variation-settings: 'wght'680;
 }
+
 code {
   font-family: 'Inter var', sans-serif;
-  font-variation-settings: 'wght' 680;
+  font-variation-settings: 'wght'680;
 }

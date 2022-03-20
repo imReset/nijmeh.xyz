@@ -8,7 +8,7 @@ export default function Toolbox() {
             <title>Andrews Toolbox</title>
             <h1>Toolbox</h1>
             <p>
-                Im a developer.. so I have a bunch of programs & tools I use on a daily basis. so Ive listed it all here :)
+                I'm a developer, so I have a bunch of programs & tools I use on a daily basis. I've listed it all here :)
             </p>
             <h2>
                 Gear
@@ -23,7 +23,7 @@ export default function Toolbox() {
                 <p>
                     My dock is very minimal.
 
-                    I dislike when its cluttered, so I keep a very small amount of apps.
+                    I dislike when it's cluttered, so I keep a very small amount of apps.
 
                     Here are the apps I use on a daily basis.
 
