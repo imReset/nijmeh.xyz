@@ -15,9 +15,15 @@
   font-named-instance: 'Italic';
 }
 
-a ::selection {
-  background: #1455bd2c;
-  color: #000;
+/* CSS Variables for easy design adjustment */
+:root {
+  --text-heading-color: #662f1b;
+  --text-body-color: #c15c34;
+}
+
+::selection {
+  background: var(--text-body-color);
+  color: white;
 }
 
 .headshot {
@@ -25,6 +31,7 @@ a ::selection {
   height: 5rem;
   border-radius: 100%;
 }
+
 
 html {
   width: 100%;
@@ -46,8 +53,7 @@ body {
   justify-content: center;
   padding: 0.75rem;
   background: #e7d5c1;
-  color: #a94219;
-
+  color: var(--text-body-color);
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
@@ -64,6 +70,7 @@ screen and (min-resolution: 1.5dppx) {
   margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 4rem;
+  animation: load 0.8s ease-out;
 }
 
 .mark {
@@ -77,12 +84,13 @@ h4,
 h5,
 strong,
 a {
-  color: #4d2415 !important;
+  color: var(--text-heading-color) !important;
 }
 
 a {
   text-decoration-skip-ink: all;
-  text-decoration: all #9a5337a6 -1px underline solid;
+  text-decoration: all -1px underline solid;
+  text-decoration-color: from-font;
   text-decoration-thickness: from-font;
   transition: all 0.2s ease;
 }
@@ -113,7 +121,6 @@ h1 {
 p {
   font-size: 1.2rem;
   line-height: 1.5;
-  opacity: 0.8;
   font-weight: 400;
 }
 
@@ -126,15 +133,18 @@ p.links strong {
   display: block;
   margin: 0 5px;
   user-select: none;
+  pointer-events: all;
   transition: 100ms;
   font-size: 23px;
 }
+
 p.links:not(strong) {
-  cursor: default;
+  pointer-events: none;
+  user-select: none;
 }
+
 p.links strong:hover {
   transform: translateY(-1px);
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.178);
 }
 
 .footer {
@@ -151,4 +161,11 @@ strong {
 code {
   font-family: 'Inter var', sans-serif;
   font-variation-settings: 'wght'680;
+}
+
+@keyframes load {
+  from {
+    opacity: 0;
+    transform: translatey(-10px);
+  }
 }
