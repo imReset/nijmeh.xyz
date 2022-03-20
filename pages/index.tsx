@@ -23,7 +23,7 @@ export default function Home() {
         </p>
         <h2>current</h2>
         <p>
-          At the moment, I'm building a few open-source projects on GitHub.💻. 
+         At the moment, Im working on my startup called Triffle - we are equipping this generation of teens with the opportunity to secure their financial future via investing in crypto 🚀. Im also building a couple open source projects on my GitHub 💻.
         </p>
         <h2>
           prev
