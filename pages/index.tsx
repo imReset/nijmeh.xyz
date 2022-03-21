@@ -6,9 +6,7 @@ export default function Home() {
   return (
       <div className="container">
         <title>Andrew Nijmeh</title>
-        <h1>Andrew Nijmeh</h1>
-
-        <p>
+        <h1>Andrew Nijmeh <p className="links">
           <Link href="mailto:andrewn@gmx.com" passHref><strong> ✉️ </strong></Link> ·
 
           <Link href="https://github.com/sponsors/anddddrew" passHref><strong> 💸 </strong></Link> ·
@@ -16,14 +14,14 @@ export default function Home() {
           <Link href="https://github.com/anddddrew" passHref><strong> 💻 </strong></Link> ·
 
           <Link href="/toolbox" passHref><strong> 🧰 </strong></Link> 
-        </p>
+        </p></h1>
         <p>
-          Welcome to my website! Im a 13 year old software developer from Toronto. Ive been doing software development for 3.5 years (2.5 yrs professionally),
-          I love blockchain & crypto, if you have any cool ideas feel free to email me!
+          Welcome to my website! Im a 13 year old software developer from Toronto. Ive been doing software development for 3.5 years (2.5 yrs professionally), and
+          I love blockchain & crypto. If you have any cool ideas feel free to email me!
         </p>
         <h2>current</h2>
         <p>
-         At the moment, Im working on my startup called Triffle - we are equipping this generation of teens with the opportunity to secure their financial future via investing in crypto 🚀. Im also building a couple open source projects on my GitHub 💻.
+        Currently, I'm working on my startup called Triffle - we are equipping this generation of teens with the opportunity to secure their financial future through investing in crypto 🚀. I'm also building open source projects on my GitHub 💻.
         </p>
         <h2>
           prev
@@ -36,9 +34,7 @@ export default function Home() {
               (july 2021 - decemeber 2021)
         </p>
         <p>
-          I also worked at
-          <a href="https://auraside.com"> auraside </a>
-            as a typescript engineer (november 2020 - june 2021).
+          I have also worked at <a href="https://auraside.com">auraside</a> as a TypeScript engineer (Nov 2020 - June 2021).
         </p>
         <p className="footer">
           <span>
