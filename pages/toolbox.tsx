@@ -24,24 +24,39 @@ export default function Toolbox() {
 
                 Here are the apps I use on a daily basis.
 
-
-                <li><mark><a href="https://brave.com"> Brave Browser </a></mark></li>
-                <li><mark><a href="https://notion.so"> Notion </a></mark></li>
-                <li><mark><a href="https://sw.kovidgoyal.net/kitty/"> Kitty </a></mark></li>
-                <li><mark><a href="https://discord.com"> Discord </a></mark></li>
-                <li><mark><a href="https://slack.com"> Slack </a></mark></li>
-                <li><mark><a href="https://code.visualstudio.com"> Visual Studio Code </a></mark></li>
-                <li><mark><a href="https://spotify.com"> Spotify </a></mark></li>
-                <li><mark><a href="https://raycast.com"> Raycast </a></mark></li>
-                <li><mark><a href="https://getmailspring.com/">Mailspring</a></mark></li>
-                <li><mark><a href="https://fig.io">Fig</a></mark></li>
-                <li><mark><a href="https://justgetflux.com/">Flux</a></mark></li>
-                <li><mark><a href="https://nightowl.kramser.xyz/">Nightowl</a></mark></li>
-                <li><mark><a href="https://figma.com">Figma</a></mark></li>
-                <li><mark><a href="https://zoom.us">Zoom</a></mark></li>
-                <li><mark><a href="https://todoist.com">Todoist</a></mark></li>
-                <li><mark><a href="https://docker.com">Docker</a></mark></li>
-                <li><mark><a href="https://rectangleapp.com">Rectangle</a></mark></li>
+                <div className="toolbox">
+                    <div>
+                        <strong>Organization</strong>
+                        <li><a href="https://notion.so"> Notion </a></li>
+                        <li><a href="https://todoist.com">Todoist</a></li>
+                        <li><a href="https://rectangleapp.com">Rectangle</a></li>
+                    </div>
+                    <div>
+                        <strong>Productivity</strong>
+                        <li><a href="https://raycast.com"> Raycast </a></li>
+                        <li><a href="https://fig.io">Fig</a></li>
+                        <li><a href="https://getmailspring.com/">Mailspring</a></li>
+                    </div>
+                    <div>
+                        <strong>Main Apps</strong>
+                        <li><a href="https://sw.kovidgoyal.net/kitty/"> Kitty </a></li>
+                        <li><a href="https://discord.com"> Discord </a></li>
+                        <li><a href="https://slack.com"> Slack </a></li>
+                        <li><a href="https://code.visualstudio.com"> Visual Studio Code </a></li>
+                        <li><a href="https://spotify.com"> Spotify </a></li>
+                        <li><a href="https://figma.com">Figma</a></li>
+                        <li><a href="https://zoom.us">Zoom</a></li>
+                        <li><a href="https://docker.com">Docker</a></li>
+                        <li><a href="https://brave.com"> Brave Browser </a></li>
+                    </div>
+                    
+                    <div>
+                        <strong>Tools</strong>
+                        <li><a href="https://justgetflux.com/">Flux</a></li>
+                        <li><a href="https://nightowl.kramser.xyz/">Nightowl</a></li>
+                    </div>
+                </div>
+                
             </p>
         </div>
     )
