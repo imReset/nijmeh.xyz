@@ -16,12 +16,12 @@ export default function Home() {
           <Link href="/toolbox" passHref><strong> 🧰 </strong></Link> 
         </p></h1>
         <p>
-          Welcome to my website! Im a 13 year old software developer from Toronto. Ive been doing software development for 3.5 years (2.5 yrs professionally), and
+          Welcome to my website! {"I'm"} a 13 year old software developer from Toronto. Ive been doing software development for 3.5 years (2.5 yrs professionally), and
           I love blockchain & crypto. If you have any cool ideas feel free to email me!
         </p>
         <h2>current</h2>
         <p>
-        Currently, I'm working on my startup called Triffle - we are equipping this generation of teens with the opportunity to secure their financial future through investing in crypto 🚀. I'm also building open source projects on my GitHub 💻.
+        Currently, {"I'm"} working on my startup called Triffle - we are equipping this generation of teens with the opportunity to secure their financial future through investing in crypto 🚀. {"I'm"} also building open source projects on my GitHub 💻.
         </p>
         <h2>
           prev
