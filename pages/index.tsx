@@ -1,13 +1,17 @@
 import React from "react";
-import dayjs from "dayjs";;
+import {useLanyard} from 'use-lanyard';
 import Link from "next/link";
 
 export default function Home() {
+
+  const {data: lanyard} = useLanyard('804052488235647017');
+
+
   return (
       <div className="container">
         <title>Andrew Nijmeh</title>
         <h1>Andrew Nijmeh <p className="links">
-          <Link href="mailto:andrewn@gmx.com" passHref><strong> ✉️ </strong></Link> ·
+          <Link href="mailto:andrewnijmeh1@gmail.com" passHref><strong> ✉️ </strong></Link> ·
 
           <Link href="https://github.com/sponsors/anddddrew" passHref><strong> 💸 </strong></Link> ·
 
@@ -36,6 +40,7 @@ export default function Home() {
         <p>
           I have also worked at <a href="https://auraside.com">auraside</a> as a TypeScript engineer (Nov 2020 - June 2021).
         </p>
+
         <p className="footer">
           <span>
           ©️ Andrew Nijmeh • 2022 💖
