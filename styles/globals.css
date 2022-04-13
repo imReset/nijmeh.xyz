@@ -91,7 +91,7 @@ a {
   text-decoration-color: from-font;
   text-decoration-thickness: from-font;
   transition: all 0.2s ease;
-  color: var(--text-heading-color)
+  color: #6741d9;
 }
 
 h2,

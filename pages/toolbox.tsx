@@ -9,11 +9,11 @@ export default function Toolbox() {
             <Link href="/" passHref> &larr; Back </Link> 
             <h1>Toolbox</h1>
             <p>
-                {"I'm"} a developer, so I have a bunch of programs & tools I use on a daily basis. {"I've"} listed it all here :)
+                On this page you can find what software & gear I use.
             </p>
             <h2>Gear</h2>
             <p>
-                At the moment, I use a <strong>14 inch Macbook (M1 Pro). </strong>
+                I currently use a <strong>14 inch Macbook (M1 Pro). </strong>
                 I also have 2 external monitors hooked up to my Macbook.
             </p>
             <h2>Apps</h2>
@@ -35,7 +35,7 @@ export default function Toolbox() {
                         <strong>Productivity</strong>
                         <li><a href="https://raycast.com"> Raycast </a></li>
                         <li><a href="https://fig.io">Fig</a></li>
-                        <li><a href="https://getmailspring.com/">Mailspring</a></li>
+                        <li><a href="https:/sparkmailapp.com">Spark</a></li>
                     </div>
                     <div>
                         <strong>Main Apps</strong>
