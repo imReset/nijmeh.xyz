@@ -20,7 +20,7 @@ export default function Home() {
           <Link href="/toolbox" passHref><strong> ~/toolbox </strong></Link> 
         </p></h1>
         <p>
-          Dear visitor.. My name is Andrew. 3 years ago I taught myself how to code. Since then {"I've"} been coding everyday, I have experience in lots of languages and tools. I have an interest in crypto & blockchain, and I love thinking about the future.
+          Dear visitor. My name is Andrew. 3 years ago I taught myself how to code. Since then {"I've"} been coding consistently, I have experience in lots of languages and tools. I have an interest in crypto & blockchain, and I love thinking about the future.
         </p>
         <h2>current</h2>
         <p>
