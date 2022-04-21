@@ -20,25 +20,28 @@ export default function Home() {
       consistently, I have experience in lots of languages and tools. I have an interest in crypto & blockchain, and I
       love thinking about the future.
     </p>
-    <h2>current</h2>
+    <h2>Current</h2>
     <p>
       {"I'm"} working at a super cool startup called <a href="https://frenter.com">frenter</a>. I also build a few open
       source projects on my GitHub.
     </p>
     <h2>
-      prev
+      Previous
     </h2>
+
     <p>
       I worked as a junior software engineer
       at a company that sold
       <a href="https://plr.me"> PLR (Private Labeled Rights) content. </a>
       (july 2021 - decemeber 2021)
     </p>
+
     <p>
       I have also worked at <a href="https://auraside.com">auraside</a> as a TypeScript engineer (Nov 2020 - June 2021).
     </p>
+
     <h2>
-      contact me
+      Contact me
     </h2>
     <p>
       {"Don't"} hesitate to contact me, I love chatting with new people & hearing about their projects. You can email me at <a
