@@ -1,7 +1,7 @@
 import React from "react";
 import dayjs from "dayjs";
-import Image from "next/image";
 import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -16,8 +16,8 @@ export default function Home() {
       <Link href="/toolbox" passHref><strong> ~/toolbox </strong></Link>
     </p>
     <p>
-      Dear visitor. My name is Andrew. 3 years ago I taught myself how to code. Since then {"I've"} been coding
-      consistently, I have experience in lots of languages and tools. I have an interest in crypto & blockchain, and I
+      Dear visitor. My name is Andrew. {"I'm"} 13 years old. {"I've"} been coding
+      consistently for about 3 years, I have experience in lots of languages and tools. I have an interest in crypto & blockchain, and I
       love thinking about the future.
     </p>
     <h2>Current</h2>
