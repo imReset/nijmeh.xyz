@@ -1,34 +1,26 @@
-@font-face {
-  font-family: 'Inter var';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
-}
-
 /* CSS Variables for easy design adjustment */
 :root {
-  --text-heading-color: #662f1b;
-  --text-body-color: #c15c34;
+  --text-heading-color: #001125;
+  --text-body-color: #003e5f;
+  --text-link: var(--text-body-color);
+  --text-link-accent: #a1c3d6;
+  --text-link-accent-hover: #94c2d1;
+  --background: #ddeef7;
 }
 
 ::selection {
   background: var(--text-body-color);
   color: white;
 }
-
+*{
+  box-sizing: border-box;
+  margin: 0;  
+}
 .headshot {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
+  animation: load 0.8s ease-out;
+  background: url('../public/headshot.png');
   border-radius: 100%;
 }
 
@@ -39,19 +31,12 @@ html {
 }
 
 body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-feature-settings: 'case'1, 'cpsp'1, 'cv01'1, 'cv02',
-    'cv03'1, 'cv04'1;
-  font-variation-settings: 'wght'400;
-  letter-spacing: -0.02em;
+  font-family: 'Ubuntu Mono', monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0.75rem;
-  background: #e7d5c1;
+  background: var(--background);
   color: var(--text-body-color);
 }
 
@@ -68,8 +53,8 @@ screen and (min-resolution: 1.5dppx) {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
-  margin-bottom: 4rem;
   animation: load 0.8s ease-out;
+  margin-bottom: 4rem;
 }
 
 .mark {
@@ -83,36 +68,25 @@ h4,
 h5,
 strong {
   color: var(--text-heading-color) !important;
+  animation: load 0.8s ease-out;
 }
 
-a {
-  text-decoration-skip-ink: all;
-  text-decoration: all -1px underline solid;
-  text-decoration-color: from-font;
-  text-decoration-thickness: from-font;
-  transition: all 0.2s ease;
-  color: var(--text-heading-color)
-}
+
 
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inter var', -apple-system, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif;
-  font-variation-settings: 'wght'600;
   margin-top: 2rem;
 }
 
 h2 {
-  font-variation-settings: 'wght'650;
   letter-spacing: -0.024rem;
-  margin-top: 2rem;
 }
 
 h1 {
-  font-family: 'Inter var', sans-serif;
-  font-variation-settings: 'wght'700;
+  font-weight: 700;
   font-size: 2rem;
   margin-bottom: 0.4em;
 }
@@ -121,6 +95,7 @@ p {
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 400;
+  color: var(--text-body-color);
 }
 
 p.links {
@@ -134,32 +109,52 @@ p.links strong {
   user-select: none;
   pointer-events: all;
   transition: 100ms;
-  font-size: 23px;
+  font-size: 17px;
+  margin-bottom: 1.5em;
+  margin-top: -2em;
+  font-weight:100;
 }
 
 p.links:not(strong) {
   pointer-events: none;
   user-select: none;
 }
-
-p.links strong:hover {
-  transform: translateY(-1px);
-}
-
 .footer {
   margin-top: 3.5rem;
   font-size: 0.9rem;
   padding-left: auto;
 }
 
-b,
-strong {
-  font-variation-settings: 'wght'680;
+a, p.links strong {
+  transition: all 0.2s ease;
+  color: var(--text-link-color);
+  text-decoration: none;
+  position: relative;
+}
+a::after, p.links strong::after {
+  position: absolute;
+  bottom:0;
+  height: 7px;
+  transition: 0.2s;
+  left:0;
+  content: '';
+  z-index:-1;
+  right:0;
+  background: var(--text-link-accent);
 }
 
+a:hover::after, p.links strong:hover::after {
+  background: var(--text-link-accent-hover);
+  height: 9px;
+}
+a:hover {
+  color: var(--text-heading-color);
+}
+
+b,
+strong,
 code {
-  font-family: 'Inter var', sans-serif;
-  font-variation-settings: 'wght'680;
+  font-weight: 600;
 }
 
 .toolbox {
