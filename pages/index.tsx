@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="container">
     <title>Andrew Nijmeh</title>
-    <Image className="headshot" src="../public/headshot.png" alt="Andrew Nijmeh" />
+    <img className="headshot" src="/headshot.png" alt="Andrew Nijmeh" />
     <h1>Andrew Nijmeh</h1>
     <p className="links">
       <Link href="mailto:andrewn@gmx.com" passHref><strong> ~/mail </strong></Link>
@@ -75,7 +75,7 @@ export default function Home() {
     </h2>
       <p className="footer">
         <span>
-          ©️ Andrew Nijmeh • 2022 💖
+          ©️ Andrew Nijmeh made with 💖
         </span>
       </p>
   </div>
