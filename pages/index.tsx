@@ -41,7 +41,7 @@ export default function Home() {
       contact me
     </h2>
     <p>
-      Don't hesitate to contact me, I love chatting with new people & hearing about their projects. You can email me at <a
+      {"Don't"} hesitate to contact me, I love chatting with new people & hearing about their projects. You can email me at <a
       href="mailto:andrewn@gmx.com">andrewn@gmx.com</a> or message me on <a
       href="https://twitter.com/0xnijmeh">twitter.</a>
     </p>
