@@ -1,9 +1,24 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import dayjs from "dayjs";
 import Link from "next/link";
 
 
 export default function Home() {
+
+  const [time, setTime] = useState("00:00:00 p.m.");
+  
+  useEffect(() => {
+    updateTime();
+  }, []);
+  
+  // taken from https://github.com/cnrad/cnrad.dev/blob/main/pages/index.tsx
+  function updateTime() {
+    let current = new Date().toLocaleString("en-US", { timeZone: "America/New_York" });
+    setTime(current.toLowerCase().slice(-11, -1) + ".m.");
+    setTimeout(updateTime, 1000);
+}
+
   return (
     <div className="container">
     <title>Andrew Nijmeh</title>
@@ -19,8 +34,13 @@ export default function Home() {
       <Link href="/toolbox" passHref><strong> ~/toolbox </strong></Link>
     </p>
     <p>
-      Hi. My name is Andrew, {"I'm"} a programmer and hacker. 
+      Andrew Nijmeh - software engineer @ frenter.com. 
     </p>
+  
+
+    <p>it is currently {time} for andrew.</p>
+
+
     <h2>current</h2>
     <p>
       {"I'm"} working at a startup called <a href="https://frenter.com">frenter</a>.
@@ -44,11 +64,11 @@ export default function Home() {
       Contact me
     </h2>
     <p>
-      {"Don't"} hesitate to contact me, I love chatting with new people & hearing about their projects. You can email me at <a
-      href="mailto:andrewn@gmx.com">andrewn@gmx.com</a> or message me on <a
-      href="https://twitter.com/0xnijmeh">twitter.</a>
+      you can contact me on my email 
+      <a href="mailto:andrewn@gmx.com">andrewn@gmx.com</a> or message me on
+      <a href="https://twitter.com/0xnijmeh">twitter. </a> i typically respond faster on twitter.
     </p>
-    <h2>projects<p>Here a couple projects I am most proud about.</p>
+    <h2>projects<p>few projects I have worked on</p>
       <p>
         <li><a href="https://github.com/anddddrew/assembler">Assembler</a></li>
         <li><a href="https://github.com/anddddrew/evm">EVM Disassembler</a></li>
