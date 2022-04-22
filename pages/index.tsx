@@ -12,21 +12,21 @@ export default function Home() {
     <p className="links">
       <Link href="mailto:andrewn@gmx.com" passHref><strong> ~/mail </strong></Link>
       <Link href="https://github.com/sponsors/anddddrew" passHref><strong> ~/sponsor </strong></Link>
-      <Link href="https://github.com/anddddrew" passHref><strong> ~/github </strong></Link>
+      <Link href="https://g.nijmeh.xyz" passHref><strong> ~/github </strong></Link>
+      <Link href="https://www.linkedin.com/in/andrew-nijmeh-1a6726200/" passHref><strong> ~/linkedin </strong></Link>
+      <Link href="https://t.nijmeh.xyz" passHref><strong> ~/twitter </strong></Link>
+      <Link href="/notes" passHref><strong> ~/notes </strong></Link>
       <Link href="/toolbox" passHref><strong> ~/toolbox </strong></Link>
     </p>
     <p>
-      Dear visitor. My name is Andrew. {"I'm"} 13 years old. {"I've"} been coding
-      consistently for about 3 years, I have experience in lots of languages and tools. I have an interest in crypto & blockchain, and I
-      love thinking about the future.
+      Hi. My name is Andrew, {"I'm"} a programmer and hacker. 
     </p>
-    <h2>Current</h2>
+    <h2>current</h2>
     <p>
-      {"I'm"} working at a super cool startup called <a href="https://frenter.com">frenter</a>. I also build a few open
-      source projects on my GitHub.
+      {"I'm"} working at a startup called <a href="https://frenter.com">frenter</a>.
     </p>
     <h2>
-      Previous
+      prev
     </h2>
 
     <p>
