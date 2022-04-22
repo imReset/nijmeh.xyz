@@ -37,9 +37,8 @@ export default function Home() {
       Andrew Nijmeh - software engineer @ frenter.com. 
     </p>
   
-
+    <br/>
     <p>it is currently {time} for andrew.</p>
-
 
     <h2>current</h2>
     <p>
