@@ -12,7 +12,7 @@ export default function Home() {
     updateTime();
   }, []);
   
-  // taken from https://github.com/cnrad/cnrad.dev/blob/main/pages/index.tsx
+  // taken from https://github.com/cnrad/cnrad.dev/blob/main/pages/index.tsx (all credit goes to cnrad.)
   function updateTime() {
     let current = new Date().toLocaleString("en-US", { timeZone: "America/New_York" });
     setTime(current.toLowerCase().slice(-11, -1) + ".m.");
@@ -38,7 +38,7 @@ export default function Home() {
     </p>
   
     <br/>
-    <p>it is currently {time} for andrew.</p>
+    <p>it is currently {time} for andrew. (est)</p>
 
     <h2>current</h2>
     <p>
