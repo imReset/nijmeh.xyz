@@ -64,13 +64,23 @@ export default function Home() {
     </h2>
 
     <p>
-      you can contact me on my email <a href="mailto:andrewn@gmx.com">andrewn@gmx.com</a> or message me on <a href="https://twitter.com/0xnijmeh">twitter.</a> i typically respond faster on twitter.
+      you can contact me via email <a href="mailto:andrewn@gmx.com">andrewn@gmx.com</a> or message me on <a href="https://twitter.com/0xnijmeh">twitter.</a> i typically respond faster on twitter.
     </p>
 
     <h2>
-      experience
+      skills
     </h2>
-    <h2>projects<p>few projects I have worked on</p>
+    <p>
+      <li>Docker & Docker-compose (deployments)</li>
+      <li>Python (automation, other various scripts)</li>
+      <li>TypeScript (server-side code)</li>
+      <li>Rust (systems programming + other stuff) </li>
+      <li>PostgreSQL (database) </li>
+      <li>TailwindCSS (css library)</li>
+      <li>NextJS/React (frontend)</li>
+    </p>
+
+    <h2>projects
       <p>
         <li><a href="https://github.com/anddddrew/assembler">Assembler</a></li>
         <li><a href="https://github.com/anddddrew/evm">EVM Disassembler</a></li>
@@ -78,8 +88,9 @@ export default function Home() {
         <li><a href="https://github.com/anddddrew/polio">Polio</a></li>
       </p>
     </h2>
-    <h2>music<p>I listen to a bunch of music when I am programming, or just want to chill out. Fun fact, I also play the
+    <h2>music<p>I listen to a bunch of music when I am programming, or just want to chill out. I also play the
       guitar from time to time.</p>
+    <br/>
     <p>
       <li><a href="https://open.spotify.com/track/5QLHGv0DfpeXLNFo7SFEy1?si=0fe97adaee1d48c3">Zero Remastered 2012 -
           The Smashing Pumpkins</a></li>
