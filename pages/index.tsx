@@ -62,10 +62,9 @@ export default function Home() {
     <h2>
       Contact me
     </h2>
+
     <p>
-      you can contact me on my email
-      <a href="mailto:andrewn@gmx.com">andrewn@gmx.com</a> or message me on
-      <a href="https://twitter.com/0xnijmeh">twitter. </a> i typically respond faster on twitter.
+      you can contact me on my email <a href="mailto:andrewn@gmx.com">andrewn@gmx.com</a> or message me on <a href="https://twitter.com/0xnijmeh">twitter.</a> i typically respond faster on twitter.
     </p>
     <h2>projects<p>few projects I have worked on</p>
       <p>
