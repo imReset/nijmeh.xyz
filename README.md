@@ -1,3 +1,3 @@
 My portfolio site
 
-*inspired by https://aidenybai.com I have made some changes to my liking*
+*This website is inspired by aidenybai.com, you should totally check aiden out :)*
