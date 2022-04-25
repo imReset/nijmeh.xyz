@@ -30,11 +30,12 @@ export default function Home() {
       <Link href="https://g.nijmeh.xyz" passHref><strong> ~/github </strong></Link>
       <Link href="https://www.linkedin.com/in/andrew-nijmeh-1a6726200/" passHref><strong> ~/linkedin </strong></Link>
       <Link href="https://t.nijmeh.xyz" passHref><strong> ~/twitter </strong></Link>
+      <Link href="https://nijmeh.eth" passHref><strong> ~/eth </strong></Link>
       <Link href="/notes" passHref><strong> ~/notes </strong></Link>
       <Link href="/toolbox" passHref><strong> ~/toolbox </strong></Link>
     </p>
     <p>
-      Andrew Nijmeh - software engineer @ frenter.com. 
+     Andrew Nijmeh - progammer, hacker & software engineer @ frenter.com.
     </p>
   
     <br/>
@@ -48,16 +49,19 @@ export default function Home() {
       prev
     </h2>
 
+  
     <p>
       I worked as a junior software engineer
       at a company that sold
+      
       <a href="https://plr.me"> PLR (Private Labeled Rights) content. </a>
       (july 2021 - decemeber 2021)
     </p>
-
+    
     <p>
       I have also worked at <a href="https://auraside.com">auraside</a> as a TypeScript engineer (Nov 2020 - June 2021).
     </p>
+    
 
     <h2>
       contact me
