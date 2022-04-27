@@ -43,7 +43,7 @@ export default function Home() {
 
     <h2>current</h2>
     <p>
-      {"I'm"} working at a startup called <a href="https://frenter.com">frenter</a>.
+      {"I'm"} currently working for <a href="https://frenter.com">frenter</a>.
     </p>
     <h2>
       prev
@@ -75,10 +75,10 @@ export default function Home() {
       skills
     </h2>
     <p>
-      <li>Docker & Docker-compose (deployments)</li>
+      <li>Docker + Docker-compose & k8s (deployments)</li>
       <li>Python (automation, other various scripts)</li>
       <li>TypeScript (server-side code)</li>
-      <li>Rust (systems programming + other stuff) </li>
+      <li>Rust (systems programming + other various stuff) </li>
       <li>PostgreSQL (database) </li>
       <li>TailwindCSS (css library)</li>
       <li>NextJS/React (frontend)</li>
