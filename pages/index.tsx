@@ -30,8 +30,8 @@ export default function Home() {
       <Link href="https://g.nijmeh.xyz" passHref><strong> ~/github </strong></Link>
       <Link href="https://www.linkedin.com/in/andrew-nijmeh-1a6726200/" passHref><strong> ~/linkedin </strong></Link>
       <Link href="https://t.nijmeh.xyz" passHref><strong> ~/twitter </strong></Link>
-      <Link href="https://nijmeh.eth" passHref><strong> ~/eth </strong></Link>
-      <Link href="/notes" passHref><strong> ~/notes </strong></Link>
+      <Link href="https://nijmeh.eth" passHref><strong> ~/ens </strong></Link>
+      <Link href="/notes" passHref><strong> ~/blog </strong></Link>
       <Link href="/toolbox" passHref><strong> ~/toolbox </strong></Link>
     </p>
     <p>
@@ -39,7 +39,7 @@ export default function Home() {
     </p>
   
     <br/>
-    <p>it is currently {time} for andrew. (est)</p>
+    <p>It is currently {time} for andrew. (est)</p>
 
     <h2>current</h2>
     <p>
