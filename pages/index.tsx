@@ -82,6 +82,7 @@ export default function Home() {
       <li>PostgreSQL (database) </li>
       <li>TailwindCSS (css library)</li>
       <li>NextJS/React (frontend)</li>
+      <li>Solidity (Smart Contracts)</li>
     </p>
 
     <h2>projects
