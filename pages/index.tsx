@@ -35,7 +35,7 @@ export default function Home() {
       <Link href="/toolbox" passHref><strong> ~/toolbox </strong></Link>
     </p>
     <p>
-     Andrew Nijmeh - progammer, hacker & software engineer @ frenter.com.
+     Andrew Nijmeh - programmer, hacker & software engineer @ frenter.com.
     </p>
   
     <br/>
