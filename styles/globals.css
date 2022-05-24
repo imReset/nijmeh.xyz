@@ -20,7 +20,7 @@
   width: 4rem;
   height: 4rem;
   animation: load 0.8s ease-out;
-  background: url("../public/headshot.png");
+  background: url("../assets/headshot.png");
   border-radius: 100%;
 }
 
