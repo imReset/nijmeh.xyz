@@ -75,12 +75,13 @@ export default function Home() {
       skills
     </h2>
     <p>
-      <li>Docker + Docker-compose & k8s (deployments)</li>
+      <li>Docker + Docker-compose (deployments)</li>
+      <li>Kubernetes </li>
+      <li>Amazon Web Services</li>
       <li>Python (automation, other various scripts)</li>
       <li>TypeScript (server-side code)</li>
       <li>Rust (systems programming + other various stuff) </li>
       <li>PostgreSQL (database) </li>
-      <li>TailwindCSS (css library)</li>
       <li>NextJS/React (frontend)</li>
       <li>Solidity (Smart Contracts)</li>
     </p>
