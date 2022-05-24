@@ -1,5 +1,5 @@
 // copied from the source code of alistair.sh <3 thanks ali
-const bday = new Date('1 June 2008');
+const bday = new Date("1 June 2008");
 const ageMilliseconds = Date.now() - bday.getTime();
 
 export const MILLISECOND = 1;

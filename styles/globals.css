@@ -12,18 +12,17 @@
   background: var(--text-body-color);
   color: white;
 }
-*{
+* {
   box-sizing: border-box;
-  margin: 0;  
+  margin: 0;
 }
 .headshot {
   width: 4rem;
   height: 4rem;
   animation: load 0.8s ease-out;
-  background: url('../public/headshot.png');
+  background: url("../public/headshot.png");
   border-radius: 100%;
 }
-
 
 html {
   width: 100%;
@@ -31,7 +30,7 @@ html {
 }
 
 body {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,7 +40,7 @@ body {
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
-screen and (min-resolution: 1.5dppx) {
+  screen and (min-resolution: 1.5dppx) {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -58,7 +57,7 @@ screen and (min-resolution: 1.5dppx) {
 }
 
 .mark {
-  background-color: #7A7628
+  background-color: #7a7628;
 }
 
 h1,
@@ -119,7 +118,7 @@ p.links strong {
   font-size: 17px;
   margin-bottom: 1.5em;
   margin-top: -2em;
-  font-weight:100;
+  font-weight: 100;
 }
 
 p.links:not(strong) {
@@ -132,25 +131,28 @@ p.links:not(strong) {
   padding-left: auto;
 }
 
-a, p.links strong {
+a,
+p.links strong {
   transition: all 0.2s ease;
   color: var(--text-link-color);
   text-decoration: none;
   position: relative;
 }
-a::after, p.links strong::after {
+a::after,
+p.links strong::after {
   position: absolute;
-  bottom:0;
+  bottom: 0;
   height: 7px;
   transition: 0.2s;
-  left:0;
-  content: '';
-  z-index:-1;
-  right:0;
+  left: 0;
+  content: "";
+  z-index: -1;
+  right: 0;
   background: var(--text-link-accent);
 }
 
-a:hover::after, p.links strong:hover::after {
+a:hover::after,
+p.links strong:hover::after {
   background: var(--text-link-accent-hover);
   height: 9px;
 }
@@ -171,9 +173,9 @@ code {
   justify-content: space-between;
 }
 
-.toolbox>div {
+.toolbox > div {
   padding: 10px;
-  border-radius:10px;
+  border-radius: 10px;
   display: inline;
 }
 
