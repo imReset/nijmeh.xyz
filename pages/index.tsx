@@ -10,7 +10,6 @@ export default function Home() {
     updateTime();
   }, []);
 
-  // taken from https://github.com/cnrad/cnrad.dev/blob/main/pages/index.tsx (all credit goes to cnrad.)
   function updateTime() {
     let current = new Date().toLocaleString("en-US", {
       timeZone: "America/New_York",
