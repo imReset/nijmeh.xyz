@@ -1,7 +1,7 @@
 import React from "react";
-import dock from "../public/dock.png";
 import Link from "next/link";
 import Image from "next/image";
+
 export default function Toolbox() {
   return (
     <div className="container">

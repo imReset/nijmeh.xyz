@@ -1,7 +1,8 @@
-import React from "react";
 import { useEffect, useState } from "react";
+import React from "react";
+import Image from "next/image";
 import dayjs from "dayjs";
-import Link from "next/link";
+import Link from "next/link";             
 
 export default function Home() {
   const [time, setTime] = useState("00:00:00 p.m.");
@@ -21,7 +22,7 @@ export default function Home() {
   return (
     <div className="container">
       <title>Andrew Nijmeh</title>
-      <img className="headshot" src="/headshot.png" alt="Andrew Nijmeh" />
+      <img className="headshot" src="./headshot.png" alt="Andrew Nijmeh" />
       <h1>Andrew Nijmeh</h1>
       <p className="links">
         <Link href="mailto:andrewn@gmx.com" passHref>
@@ -171,4 +172,4 @@ export default function Home() {
       </p>
     </div>
   );
-}
+  }
