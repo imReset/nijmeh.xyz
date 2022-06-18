@@ -43,7 +43,7 @@ export default function Toolbox() {
               <a href="https://fig.io">Fig</a>
             </li>
             <li>
-              <a href="https:/sparkmailapp.com">Spark</a>
+              <a href="https://sparkmailapp.com">Spark</a>
             </li>
           </div>
           <div>
